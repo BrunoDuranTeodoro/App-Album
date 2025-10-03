@@ -1,0 +1,11 @@
+{
+  "photos": [
+    {
+      "id": "1",
+      "titulo_foto": "Foto de Exemplo",
+      "descricao_foto": "Esta é apenas uma foto para começar.",
+      "data_foto": "2025-01-01T12:00:00Z",
+      "uri": "[https://placehold.co/600x400/DDDDDD/AAAAAA?text=Exemplo](https://placehold.co/600x400/DDDDDD/AAAAAA?text=Exemplo)"
+    }
+  ]
+}
