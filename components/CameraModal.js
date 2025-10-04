@@ -90,10 +90,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f9f9f9', // Fundo levemente off-white
   },
-
-  // ------------------------------------------------------------------
-  // ESTILOS DO MODO CÂMERA
-  // ------------------------------------------------------------------
   camera: {
     flex: 1,
     justifyContent: 'flex-end',

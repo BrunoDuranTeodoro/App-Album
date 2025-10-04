@@ -13,21 +13,18 @@ import * as api from './services/api';
 export default function App() {
   const [photos, setPhotos] = useState([]);
   const [loading, setLoading] = useState(true);
-
   const [cameraPermission, requestCameraPermission] = useCameraPermissions();
   const cameraRef = useRef(null);
-
   const [facing, setFacing] = useState('back');
-
   const [cameraModalVisible, setCameraModalVisible] = useState(false);
   const [editModalVisible, setEditModalVisible] = useState(false);
-
   const [capturedPhoto, setCapturedPhoto] = useState(null);
   const [currentPhoto, setCurrentPhoto] = useState(null);
-
   const [photoTitle, setPhotoTitle] = useState('');
   const [photoDescription, setPhotoDescription] = useState('');
 
+
+  //apos renderizaçao pede permisssao e busca as fotos
   useEffect(() => {
     fetchAllPhotos();
     requestCameraPermission();
